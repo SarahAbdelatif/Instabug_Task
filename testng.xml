@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Instabug Task"  verbose="5" preserve-order="true" >
+
+    <test name="Instabug Task Test">
+
+
+        <classes>
+            <class name="org.example.test.Signup_SignInTest" />
+            <class name="org.example.test.API_Test"></class>
+        </classes>
+    </test>
+
+</suite>
